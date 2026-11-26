@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Notes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: #1f4e79;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 10px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      color: #1f4e79;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .semester {
+      background: #eef4fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .note {
+      border-left: 5px solid #1f4e79;
+      padding: 10px 15px;
+      margin: 15px 0;
+      background: #f9fbfd;
+      border-radius: 5px;
+    }
+
+    .note a {
+      color: #1f4e79;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .note a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Notes</h1>
+    <p>Computer Science notes by Laban Murimi</p>
+  </header>
+
+  <main>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="notes.html">Notes</a>
+    </nav>
+
+    <h2>Third Year Notes</h2>
+
+    <div class="semester">
+      <h3>First Semester</h3>
+
+      <div class="note">
+        <p><strong>Unit notes will appear here.</strong></p>
+        <p>
+          You can add notes for each subject, for example Programming,
+          Databases, Networking, Software Engineering, or Operating Systems.
+        </p>
+      </div>
+
+      <div class="note">
+        <p><strong>More notes coming soon.</strong></p>
+        <p>
+          Notes will be organized by subject and updated regularly.
+        </p>
+      </div>
+    </div>
+
+    <h2>Other Notes</h2>
+    <p>
+      Notes from other years and semesters will be added here later.
+    </p>
+  </main>
+</body>
+</html>
