@@ -20,7 +20,7 @@
     }
 
     main {
-      max-width: 850px;
+      max-width: 900px;
       margin: 30px auto;
       padding: 25px;
       background: white;
@@ -45,22 +45,32 @@
       margin-bottom: 20px;
     }
 
-    .note {
+    .unit {
       border-left: 5px solid #1f4e79;
-      padding: 10px 15px;
+      padding: 12px 15px;
       margin: 15px 0;
       background: #f9fbfd;
       border-radius: 5px;
     }
 
-    .note a {
+    .unit h3 {
+      margin: 0 0 8px 0;
+      color: #1f4e79;
+    }
+
+    .unit a {
       color: #1f4e79;
       font-weight: bold;
       text-decoration: none;
     }
 
-    .note a:hover {
+    .unit a:hover {
       text-decoration: underline;
+    }
+
+    .coming-soon {
+      color: #777;
+      font-style: italic;
     }
   </style>
 </head>
@@ -82,19 +92,39 @@
     <div class="semester">
       <h3>First Semester</h3>
 
-      <div class="note">
-        <p><strong>Unit notes will appear here.</strong></p>
-        <p>
-          You can add notes for each subject, for example Programming,
-          Databases, Networking, Software Engineering, or Operating Systems.
-        </p>
+      <div class="unit">
+        <h3>COM 316: Artificial Intelligence and Expert Systems</h3>
+        <p class="coming-soon">Notes coming soon.</p>
       </div>
 
-      <div class="note">
-        <p><strong>More notes coming soon.</strong></p>
-        <p>
-          Notes will be organized by subject and updated regularly.
-        </p>
+      <div class="unit">
+        <h3>UCC 300: Entrepreneurship</h3>
+        <p class="coming-soon">Notes coming soon.</p>
+      </div>
+
+      <div class="unit">
+        <h3>COM 310: Component-Based Software Engineering</h3>
+        <p class="coming-soon">Notes coming soon.</p>
+      </div>
+
+      <div class="unit">
+        <h3>COM 312: System Programming</h3>
+        <p class="coming-soon">Notes coming soon.</p>
+      </div>
+
+      <div class="unit">
+        <h3>COM 333: Design and Analysis of Algorithms</h3>
+        <p class="coming-soon">Notes coming soon.</p>
+      </div>
+
+      <div class="unit">
+        <h3>COM 332: Advanced Database Systems</h3>
+        <p class="coming-soon">Notes coming soon.</p>
+      </div>
+
+      <div class="unit">
+        <h3>BIT 319: Management Information Systems</h3>
+        <p class="coming-soon">Notes coming soon.</p>
       </div>
     </div>
 
